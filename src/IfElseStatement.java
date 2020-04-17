@@ -10,8 +10,7 @@ public class IfElseStatement {
 
         if (number > 0) {
             System.out.println("Number is positive.");
-        }
-        if else(number < 0) {
+        }else if (number < 0) {
             System.out.println("Number is not positive.");
         }
          else{
